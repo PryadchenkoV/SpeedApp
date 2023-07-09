@@ -7,22 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E25DE4A026F7355500022E2C /* SpeedAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DE49F26F7355500022E2C /* SpeedAppApp.swift */; };
-		E25DE4A226F7355500022E2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DE4A126F7355500022E2C /* ContentView.swift */; };
+		9623ADED27103458005E7DA8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623ADEC27103457005E7DA8 /* SettingsView.swift */; };
+		9623ADF127103C29005E7DA8 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9623ADF027103C29005E7DA8 /* SettingsModel.swift */; };
+		E24029E62700C95900606BB0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24029E52700C95900606BB0 /* LocationManager.swift */; };
+		E253927B2A51AEE700D0B378 /* SessionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253927A2A51AEE700D0B378 /* SessionItem.swift */; };
+		E253927D2A51B24200D0B378 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E253927C2A51B24200D0B378 /* Localizable.xcstrings */; };
+		E25DE4A026F7355500022E2C /* SpeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DE49F26F7355500022E2C /* SpeedApp.swift */; };
 		E25DE4A426F7355700022E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25DE4A326F7355700022E2C /* Assets.xcassets */; };
 		E25DE4A726F7355700022E2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25DE4A626F7355700022E2C /* Preview Assets.xcassets */; };
-		E25DE4A926F7355700022E2C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DE4A826F7355700022E2C /* Persistence.swift */; };
-		E25DE4AC26F7355700022E2C /* SpeedApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E25DE4AA26F7355700022E2C /* SpeedApp.xcdatamodeld */; };
+		E25DE4B326F77BE200022E2C /* InformationBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DE4B226F77BE200022E2C /* InformationBlockView.swift */; };
+		E25DE4B526F786C700022E2C /* InformationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DE4B426F786C700022E2C /* InformationType.swift */; };
+		E26122452A5AEEA500E93FD3 /* FooterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26122442A5AEEA500E93FD3 /* FooterButtonView.swift */; };
+		E26122482A5B03E800E93FD3 /* MapBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26122472A5B03E800E93FD3 /* MapBlockView.swift */; };
+		E26FF5AA2A5AB5A400AB4E8B /* MeasurementConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26FF5A92A5AB5A400AB4E8B /* MeasurementConverter.swift */; };
+		E29511C72A51BC650084853E /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29511C62A51BC650084853E /* Units.swift */; };
+		E2EA829426F79E0400B8D5CC /* Measurement+SpeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA829326F79E0400B8D5CC /* Measurement+SpeedApp.swift */; };
+		E2EA829826F7B63B00B8D5CC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA829726F7B63B00B8D5CC /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9623ADEC27103457005E7DA8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9623ADF027103C29005E7DA8 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		E24029E52700C95900606BB0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E253927A2A51AEE700D0B378 /* SessionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionItem.swift; sourceTree = "<group>"; };
+		E253927C2A51B24200D0B378 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		E25DE49C26F7355500022E2C /* SpeedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E25DE49F26F7355500022E2C /* SpeedAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedAppApp.swift; sourceTree = "<group>"; };
-		E25DE4A126F7355500022E2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E25DE49F26F7355500022E2C /* SpeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedApp.swift; sourceTree = "<group>"; };
 		E25DE4A326F7355700022E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25DE4A626F7355700022E2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E25DE4A826F7355700022E2C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		E25DE4AB26F7355700022E2C /* SpeedApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpeedApp.xcdatamodel; sourceTree = "<group>"; };
+		E25DE4B226F77BE200022E2C /* InformationBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationBlockView.swift; sourceTree = "<group>"; };
+		E25DE4B426F786C700022E2C /* InformationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationType.swift; sourceTree = "<group>"; };
+		E26122442A5AEEA500E93FD3 /* FooterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterButtonView.swift; sourceTree = "<group>"; };
+		E26122472A5B03E800E93FD3 /* MapBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBlockView.swift; sourceTree = "<group>"; };
+		E26FF5A92A5AB5A400AB4E8B /* MeasurementConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementConverter.swift; sourceTree = "<group>"; };
+		E29511C62A51BC650084853E /* Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
+		E2EA829326F79E0400B8D5CC /* Measurement+SpeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Measurement+SpeedApp.swift"; sourceTree = "<group>"; };
+		E2EA829726F7B63B00B8D5CC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +75,17 @@
 		E25DE49E26F7355500022E2C /* SpeedApp */ = {
 			isa = PBXGroup;
 			children = (
-				E25DE49F26F7355500022E2C /* SpeedAppApp.swift */,
-				E25DE4A126F7355500022E2C /* ContentView.swift */,
+				E253927C2A51B24200D0B378 /* Localizable.xcstrings */,
+				E25DE49F26F7355500022E2C /* SpeedApp.swift */,
 				E25DE4A326F7355700022E2C /* Assets.xcassets */,
-				E25DE4A826F7355700022E2C /* Persistence.swift */,
-				E25DE4AA26F7355700022E2C /* SpeedApp.xcdatamodeld */,
 				E25DE4A526F7355700022E2C /* Preview Content */,
+				E25DE4B426F786C700022E2C /* InformationType.swift */,
+				9623ADF027103C29005E7DA8 /* SettingsModel.swift */,
+				E26FF5A92A5AB5A400AB4E8B /* MeasurementConverter.swift */,
+				E29511C62A51BC650084853E /* Units.swift */,
+				E2EA829326F79E0400B8D5CC /* Measurement+SpeedApp.swift */,
+				E24029E52700C95900606BB0 /* LocationManager.swift */,
+				E253927A2A51AEE700D0B378 /* SessionItem.swift */,
 			);
 			path = SpeedApp;
 			sourceTree = "<group>";
@@ -68,7 +93,12 @@
 		E25DE4A526F7355700022E2C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				E25DE4B226F77BE200022E2C /* InformationBlockView.swift */,
+				E26122472A5B03E800E93FD3 /* MapBlockView.swift */,
 				E25DE4A626F7355700022E2C /* Preview Assets.xcassets */,
+				E2EA829726F7B63B00B8D5CC /* MainView.swift */,
+				E26122442A5AEEA500E93FD3 /* FooterButtonView.swift */,
+				9623ADEC27103457005E7DA8 /* SettingsView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -114,6 +144,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 				Base,
 			);
 			mainGroup = E25DE49326F7355500022E2C;
@@ -133,6 +164,7 @@
 			files = (
 				E25DE4A726F7355700022E2C /* Preview Assets.xcassets in Resources */,
 				E25DE4A426F7355700022E2C /* Assets.xcassets in Resources */,
+				E253927D2A51B24200D0B378 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +175,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25DE4A926F7355700022E2C /* Persistence.swift in Sources */,
-				E25DE4A226F7355500022E2C /* ContentView.swift in Sources */,
-				E25DE4A026F7355500022E2C /* SpeedAppApp.swift in Sources */,
-				E25DE4AC26F7355700022E2C /* SpeedApp.xcdatamodeld in Sources */,
+				E29511C72A51BC650084853E /* Units.swift in Sources */,
+				9623ADF127103C29005E7DA8 /* SettingsModel.swift in Sources */,
+				E2EA829826F7B63B00B8D5CC /* MainView.swift in Sources */,
+				E25DE4B526F786C700022E2C /* InformationType.swift in Sources */,
+				E25DE4B326F77BE200022E2C /* InformationBlockView.swift in Sources */,
+				9623ADED27103458005E7DA8 /* SettingsView.swift in Sources */,
+				E26122482A5B03E800E93FD3 /* MapBlockView.swift in Sources */,
+				E2EA829426F79E0400B8D5CC /* Measurement+SpeedApp.swift in Sources */,
+				E26122452A5AEEA500E93FD3 /* FooterButtonView.swift in Sources */,
+				E25DE4A026F7355500022E2C /* SpeedApp.swift in Sources */,
+				E253927B2A51AEE700D0B378 /* SessionItem.swift in Sources */,
+				E24029E62700C95900606BB0 /* LocationManager.swift in Sources */,
+				E26FF5AA2A5AB5A400AB4E8B /* MeasurementConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +321,14 @@
 				DEVELOPMENT_TEAM = MGDFYF2DS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Track Activity";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Test Loc";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,12 +353,14 @@
 				DEVELOPMENT_TEAM = MGDFYF2DS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Track Activity";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Test Loc";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -351,19 +396,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E25DE4AA26F7355700022E2C /* SpeedApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E25DE4AB26F7355700022E2C /* SpeedApp.xcdatamodel */,
-			);
-			currentVersion = E25DE4AB26F7355700022E2C /* SpeedApp.xcdatamodel */;
-			path = SpeedApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E25DE49426F7355500022E2C /* Project object */;
 }

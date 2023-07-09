@@ -1,0 +1,65 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Altitude" : {
+
+    },
+    "Average Speed" : {
+
+    },
+    "Click start to update" : {
+
+    },
+    "End Point" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "End"
+          }
+        }
+      }
+    },
+    "Main Screen" : {
+
+    },
+    "Maximum Altitude" : {
+
+    },
+    "Maximum Speed" : {
+
+    },
+    "Measuments" : {
+
+    },
+    "Measuring Units" : {
+
+    },
+    "Reset" : {
+
+    },
+    "Save" : {
+
+    },
+    "Speed" : {
+
+    },
+    "Start" : {
+
+    },
+    "Start Point" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start"
+          }
+        }
+      }
+    },
+    "Stop" : {
+
+    }
+  },
+  "version" : "1.0"
+}

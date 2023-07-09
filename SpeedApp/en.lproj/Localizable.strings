@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  SpeedApp
+
+  Created by Ivan Pryadchenko on 19.09.2021.
+  
+*/
+
+"information_type_speed" = "Speed";
+"information_type_altitude" = "Altitude";
+"information_type_maxSpeed" = "Max Speed";
+"information_type_avgSpeed" = "Avarage Speed";
+"unit_speed_km_h" = "km/h";
+"unit_speed_ml_h" = "mph";
